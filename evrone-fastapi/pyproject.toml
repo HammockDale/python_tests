@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "evrone-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Hdale <EkaterinaR4@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "evrone_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
